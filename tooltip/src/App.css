@@ -1,0 +1,49 @@
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.central-element {
+  position: relative;
+  width: 200px; 
+  height: 200px; 
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.element {
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.top {
+  top: -80px;
+  transform: translateX(-50%);
+}
+
+.right {
+  top: 50%;
+  left: calc(100% + 40px);
+  transform: translateY(-50%);
+}
+
+.bottom {
+  top: calc(100% + 20px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.left {
+  top: 50%;
+  left: -100px;
+  transform: translateY(-50%);
+}
+
+.tooltip-text {
+  font-size: 14px;
+}
